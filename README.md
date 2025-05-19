@@ -5,4 +5,5 @@ Author - Mohammed Afroz
 
 
 Dataset: iam_handwriting_word_database
+<br>
 Dataset Link: https://www.kaggle.com/datasets/nibinv23/iam-handwriting-word-database
