@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTR Application</title>
+    <style>
+        /* Your existing styles */
+    </style>
+</head>
+<body>
+    <h1>HTR Application</h1>
+    <div class="upload-container" style="display: flex;">
+        <form id="uploadForm" method="post" enctype="multipart/form-data"> 
+            <input type="file" name="image" id="imageInput" required><br><br>
+            <input type="submit" value="Upload Image" id="uploadButtonFile">
+        </form>
+        <h4 style="text-align: center; align-self: center;"> or</h4>
+        <form method="post">
+            <input type="text" name="image_url" placeholder="Paste Image URL"><br><br>
+            <input type="submit" value="Submit URL" id="uploadButtonUrl">
+        </form>
+    </div>
+    <div class="loader" id="loader"></div>
+    <script>
+        // Loader script
+    </script>
+</body>
+<footer>
+    <h4>Done by Team - A17</h4>
+    <ul style="list-style: none;">
+        <li>D. Navya</li>
+        <li>Mohammed Afroz</li>
+        <li>B. Akhila</li>
+    </ul>
+</footer>
+</html>
